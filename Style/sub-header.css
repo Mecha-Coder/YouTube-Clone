@@ -1,10 +1,11 @@
 section {
-  background-color: var(--dark-bg);
+  background-color: lightblue;
   display: flex;
   position: fixed;
-  flex-direction: row;
-  padding: 0px 16px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 
+  margin: 0px 16px;
   top: 56px;
   left: 72px;
   right: 0px;
@@ -17,8 +18,14 @@ section div {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  flex-shrink: 0;
 
   margin: 12px 12px 12px 0px;
   padding: 0px 12px;
   border-radius: 10px;
+
+  /*Prevent user selection*/
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }

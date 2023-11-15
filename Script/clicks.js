@@ -96,3 +96,35 @@ function SearchFocus(state) {
     inputText.focus();
   }
 }
+
+// --------------------------------- drag ---------------------
+
+let mouseDown = false;
+let startX, scrollLeft;
+const slider = document.getElementById("sub-header");
+
+const startDragging = (e) => {
+  mouseDown = true;
+  startX = e.pageX;
+  scrollLeft = slider.scrollLeft;
+  console.log(slider.scrollWidth);
+  console.log(slider.clientWidth);
+  console.log(scrollLeft);
+};
+
+const stopDragging = (e) => {
+  mouseDown = false;
+};
+
+const move = (e) => {
+  if (mouseDown) {
+    const scroll = e.pageX - startX;
+    slider.scrollLeft = scrollLeft - scroll;
+  }
+};
+
+// Add the event listeners
+slider.addEventListener("mousemove", move, false);
+slider.addEventListener("mousedown", startDragging, false);
+slider.addEventListener("mouseup", stopDragging, false);
+slider.addEventListener("mouseleave", stopDragging, false);

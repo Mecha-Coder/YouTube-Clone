@@ -1,0 +1,13 @@
+.youtube-logo {
+  /*background-color: rgb(204, 204, 149);*/
+  align-items: center;
+
+  width: 98px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.youtube-logo img {
+  height: 20px;
+  width: 90px;
+}

@@ -1,0 +1,105 @@
+/*********************|Search bar|*****************/
+.header-center {
+  margin: 0px 10px;
+  width: 600px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  width: 100%;
+  margin-left: 32px;
+  padding-left: 16px;
+  padding-right: 4px;
+  border: 1px var(--border) solid;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.search-icon {
+  /*background-color: lightblue;*/
+  display: none;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 48px;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  color: var(--search-word);
+  font-family: "Roboto", sans-serif;
+
+  outline: none;
+  height: 20px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.input::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: var(--search-word);
+  font-size: 16px;
+}
+
+.delete-icon {
+  /*background-color: lightblue;*/
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  flex-shrink: 0;
+}
+
+.delete-icon img,
+.search-icon img {
+  height: 16px;
+  width: 16px;
+}
+
+/*********************|Search button|*****************/
+.search {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  background-color: var(--button-idle);
+  border: 1px var(--border) solid;
+  border-left: none;
+
+  width: 64px;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  flex-shrink: 0;
+}
+
+/*********************|Mic button|*****************/
+
+.microphone {
+  background-color: var(--button-idle);
+  margin-left: 16px;
+  flex-shrink: 0;
+}
+
+/*************|Searchbar focus effect|**************/
+
+.searchbar:focus-within {
+  border-color: var(--highlight);
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.searchbar:focus-within .search-icon {
+  display: flex;
+}

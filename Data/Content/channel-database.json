@@ -1,0 +1,433 @@
+[
+  {
+    "channelId": "chinesesong2023",
+    "name": "熱歌 Playlist",
+    "icon": "channel-1"
+  },
+
+  {
+    "channelId": "Poplawas2000an",
+    "name": "F A J A R",
+    "icon": "channel-2"
+  },
+
+  {
+    "channelId": "neuroticstudio",
+    "name": "Neurotic Studio",
+    "icon": "channel-3"
+  },
+
+  {
+    "channelId": "Vinyl-ff6pr",
+    "name": "Vinyl Records",
+    "icon": "channel-4"
+  },
+
+  {
+    "channelId": "CafeMusic-6868",
+    "name": "Cafe Music",
+    "icon": "channel-5"
+  },
+
+  {
+    "channelId": "fadhilahintan5648",
+    "name": "Fadhilah Intan",
+    "icon": "channel-6"
+  },
+
+  {
+    "channelId": "HolidayHitsRadio",
+    "name": "Holiday Hits",
+    "icon": "channel-7"
+  },
+
+  {
+    "channelId": "ophitsmusic311",
+    "name": "Top Hits Music",
+    "icon": "channel-8"
+  },
+
+  {
+    "channelId": "Cantoneseoldsongs",
+    "name": "经典老歌 Unforgettable Cantopop",
+    "icon": "channel-9"
+  },
+
+  {
+    "channelId": "RusaMusicMY",
+    "name": "Rusa Music",
+    "icon": "channel-10"
+  },
+
+  {
+    "channelId": "TaiheMusicGroup",
+    "name": "太合音樂 Taihe Music-精選",
+    "icon": "channel-11"
+  },
+
+  {
+    "channelId": "xonefm2305",
+    "name": " XONE FM ",
+    "icon": "channel-12"
+  },
+
+  {
+    "channelId": "musicoveri",
+    "name": "PJKRSTUDIO",
+    "icon": "channel-13"
+  },
+
+  {
+    "channelId": "MusicTime0994",
+    "name": "Music Time",
+    "icon": "channel-14"
+  },
+
+  {
+    "channelId": "CafeSantai-TT",
+    "name": "Cafe Santai ",
+    "icon": "channel-15"
+  },
+
+  {
+    "channelId": "dicarimusic",
+    "name": "DICARI MUSIC",
+    "icon": "channel-16"
+  },
+
+  {
+    "channelId": "wintersongs440",
+    "name": "kopi santai",
+    "icon": "channel-17"
+  },
+
+  {
+    "channelId": "MAPCreative217",
+    "name": "MAP Creative (MUTTIAH JUDENTA)",
+    "icon": "channel-18"
+  },
+
+  {
+    "channelId": "destiny_music_28",
+    "name": "DESTINY MUSIC ",
+    "icon": "channel-19"
+  },
+
+  {
+    "channelId": "muzikpuls539",
+    "name": "Tunes Muzik",
+    "icon": "channel-20"
+  },
+
+  {
+    "channelId": "kotakmusik8767",
+    "name": "Kotak Musik",
+    "icon": "channel-21"
+  },
+
+  {
+    "channelId": "jahe2018",
+    "name": "JAHE",
+    "icon": "channel-22"
+  },
+
+  {
+    "channelId": "skymusic1291",
+    "name": "Sky Music",
+    "icon": "channel-23"
+  },
+
+  {
+    "channelId": "acousticsongs541",
+    "name": "Acoustic Songs",
+    "icon": "channel-24"
+  },
+
+  {
+    "channelId": "NasirHaris",
+    "name": "Nasir Haris",
+    "icon": "channel-25"
+  },
+
+  {
+    "channelId": "ZULFIKAHMAD",
+    "name": " ZULFIKAHMAD ",
+    "icon": "channel-26"
+  },
+
+  {
+    "channelId": "bobyp",
+    "name": "Bob Yp",
+    "icon": "channel-27"
+  },
+
+  {
+    "channelId": "roygarage8247",
+    "name": "ROY GARAGE",
+    "icon": "channel-28"
+  },
+
+  {
+    "channelId": "crazyrestoration",
+    "name": "Crazy Restoration",
+    "icon": "channel-29"
+  },
+
+  {
+    "channelId": "mekanikamalaysia",
+    "name": "mekanika malaysia",
+    "icon": "channel-30"
+  },
+
+  {
+    "channelId": "akeeahmad",
+    "name": "Akee Ahmad Life",
+    "icon": "channel-31"
+  },
+
+  {
+    "channelId": "armimotovlog",
+    "name": "ARMI MotoVlog",
+    "icon": "channel-32"
+  },
+
+  {
+    "channelId": "apexsayur2283",
+    "name": "apex sayur2",
+    "icon": "channel-33"
+  },
+
+  {
+    "channelId": "LiveWithCreativity",
+    "name": "Live With Creativity",
+    "icon": "channel-34"
+  },
+
+  {
+    "channelId": "awokdew",
+    "name": "Awok Dew",
+    "icon": "channel-35"
+  },
+
+  {
+    "channelId": "Galerikereta",
+    "name": "Galeri Kereta",
+    "icon": "channel-36"
+  },
+
+  {
+    "channelId": "ShahRizal",
+    "name": "Shah Rizal",
+    "icon": "channel-37"
+  },
+
+  {
+    "channelId": "NazzAbdullah",
+    "name": "Nazz Abdullah",
+    "icon": "channel-38"
+  },
+
+  {
+    "channelId": "qartelTV",
+    "name": "QartelTV",
+    "icon": "channel-39"
+  },
+
+  {
+    "channelId": "Mad4Motors_",
+    "name": "Mad4Motors",
+    "icon": "channel-40"
+  },
+
+  {
+    "channelId": "OldMusic1986",
+    "name": "Old Music",
+    "icon": "channel-41"
+  },
+
+  {
+    "channelId": "musicexpress4109",
+    "name": " Music Express ",
+    "icon": "channel-42"
+  },
+
+  {
+    "channelId": "mnsandi",
+    "name": "mns_ andi",
+    "icon": "channel-43"
+  },
+
+  {
+    "channelId": "crownmedia_3775",
+    "name": "Music Sky",
+    "icon": "channel-44"
+  },
+
+  {
+    "channelId": "SIMVELSTUDIO",
+    "name": "PERC. ROZI",
+    "icon": "channel-45"
+  },
+
+  {
+    "channelId": "DESTINASITV",
+    "name": "DESTINASI TV",
+    "icon": "channel-46"
+  },
+
+  {
+    "channelId": "Foodie_fendi",
+    "name": "Foodie Fendi",
+    "icon": "channel-47"
+  },
+
+  {
+    "channelId": "FoodNetwork",
+    "name": "Food Network",
+    "icon": "channel-48"
+  },
+
+  {
+    "channelId": "ailaming9060",
+    "name": "AI Laming",
+    "icon": "channel-49"
+  },
+
+  {
+    "channelId": "HobbyMakan",
+    "name": "Hobby Makan",
+    "icon": "channel-50"
+  },
+
+  {
+    "channelId": "thejr_family",
+    "name": "JR Family",
+    "icon": "channel-51"
+  },
+
+  {
+    "channelId": "aifiera",
+    "name": "AI Fiera",
+    "icon": "channel-52"
+  },
+
+  {
+    "channelId": "adenfilms1739",
+    "name": "Aden Films",
+    "icon": "channel-53"
+  },
+
+  {
+    "channelId": "normanhafizi82",
+    "name": "Mencari Keredhaan-Mu, Ya Allah, Ya Tuhanku...",
+    "icon": "channel-54"
+  },
+
+  {
+    "channelId": "MrBean",
+    "name": "Mr Bean",
+    "icon": "channel-55"
+  },
+
+  {
+    "channelId": "conanobrien",
+    "name": "Conan O'Brien",
+    "icon": "channel-56"
+  },
+
+  {
+    "channelId": "TalentRecap",
+    "name": "Talent Recap",
+    "icon": "channel-57"
+  },
+
+  {
+    "channelId": "BehindTheScenesFilmIsnow",
+    "name": "FilmIsNow Movie Bloopers & Extras",
+    "icon": "channel-58"
+  },
+
+  {
+    "channelId": "mysteryrecappedofficial",
+    "name": "Mystery Recapped",
+    "icon": "channel-59"
+  },
+
+  {
+    "channelId": "ClassicMrBean",
+    "name": "Classic Mr Bean",
+    "icon": "channel-60"
+  },
+
+  {
+    "channelId": "musictherapydoryst",
+    "name": "Music Therapy - DorySt",
+    "icon": "channel-61"
+  },
+
+  {
+    "channelId": "romanticguitar.no1",
+    "name": "Romantic Guitar",
+    "icon": "channel-62"
+  },
+
+  {
+    "channelId": "loveyourself.alexander",
+    "name": "Love YourSelf",
+    "icon": "channel-63"
+  },
+
+  {
+    "channelId": "TheHanoiChamomile",
+    "name": "The Hanoi Chamomile",
+    "icon": "channel-64"
+  },
+
+  {
+    "channelId": "dog-music",
+    "name": "HealingMate - Dog Music",
+    "icon": "channel-65"
+  },
+
+  {
+    "channelId": "little_soul",
+    "name": "Little Soul",
+    "icon": "channel-66"
+  },
+
+  {
+    "channelId": "lonelystar2226",
+    "name": "Lonely Star",
+    "icon": "channel-67"
+  },
+
+  {
+    "channelId": "mg3hub",
+    "name": "mg3hub",
+    "icon": "channel-68"
+  },
+
+  {
+    "channelId": "tinagaran8430",
+    "name": "Tinagaran",
+    "icon": "channel-69"
+  },
+
+  {
+    "channelId": "anduLaju",
+    "name": " Pandu Laju ",
+    "icon": "channel-70"
+  },
+
+  {
+    "channelId": "upindanipinmy",
+    "name": "Upin & Ipin",
+    "icon": "channel-71"
+  },
+
+  {
+    "channelId": "UpinIpinFullMovie",
+    "name": "Upin & Ipin",
+    "icon": "channel-72"
+  }
+]

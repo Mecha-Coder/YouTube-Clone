@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  margin: 0px;
+}
+
+:root {
+  /*****************| Standard dark theme color |*************/
+  --button-click: rgba(200, 200, 200, 0.4);
+  --button-hover: rgba(128, 128, 128, 0.4);
+  --button-select: ;
+  --button-idle: rgb(46, 45, 45);
+
+  /****************|    Only for user button   |***************/
+  --user-click: rgba(255, 255, 255, 0.3);
+  --user-hover: rgba(64, 183, 249, 0.3);
+  --user-idle: rgb(64, 183, 249);
+
+  /***********************| Others |*********************/
+
+  --tooltip-bg: rgba(87, 87, 87, 0.4);
+  --dark-bg: rgb(15, 15, 15);
+  --border: rgb(75, 70, 70);
+  --search-word: rgb(195, 195, 195);
+
+  --highlight: rgb(48, 107, 208);
+}

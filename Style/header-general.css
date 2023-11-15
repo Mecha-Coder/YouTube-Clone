@@ -1,0 +1,164 @@
+header {
+  background-color: var(--dark-bg);
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+
+  height: 56px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0px 16px;
+  z-index: 1000;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  /* background-color: lightcoral;*/
+  align-items: center;
+}
+
+header div img {
+  height: 19px;
+  width: 19px;
+}
+
+/***********************| Button CSS |*******************/
+.hamberger,
+.microphone,
+.dots,
+.mag-glass,
+.mic,
+.back {
+  /*background-color: rgb(88, 88, 35);*/
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 0.15s;
+}
+
+.hamberger,
+.microphone {
+  margin-right: 16px;
+}
+
+.dots {
+  margin-right: 6px;
+}
+
+.mag-glass,
+.mic,
+.back {
+  margin-right: 2px;
+}
+
+.hamberger:hover,
+.dots:hover,
+.microphone:hover,
+.delete-icon:hover,
+.mag-glass:hover,
+.mic:hover,
+.back:hover {
+  background-color: var(--button-hover);
+}
+
+.hamberger:active,
+.dots:active,
+.microphone:active,
+.mag-glass:active,
+.mic:active,
+.back:active {
+  background-color: var(--button-click);
+}
+
+/***********************| Button click effect |*******************/
+
+.hamberger::after,
+.dots::after,
+.microphone::after,
+.mic::after {
+  content: "";
+  position: absolute;
+
+  opacity: 0;
+  border: 1px white solid;
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+
+.hamberger:active::after,
+.dots:active::after,
+.microphone:active::after,
+.mic:active::after {
+  border-color: transparent;
+
+  opacity: 1;
+  transition: 0s;
+}
+
+/*************************| Tooltip |***********************/
+
+.tooltip {
+  position: absolute;
+  background-color: var(--tooltip-bg);
+  white-space: nowrap;
+  pointer-events: none;
+
+  font-size: 12px;
+  padding: 4px 8px;
+  top: 45px;
+  border-radius: 8px;
+  transition: 0.15s;
+  opacity: 0;
+}
+
+.search:hover .tooltip,
+.microphone:hover .tooltip,
+.dots:hover .tooltip,
+.mag-glass:hover .tooltip,
+.mic:hover .tooltip,
+.back:hover .tooltip {
+  opacity: 1;
+}
+
+/*************************| All header display |***********************/
+
+.header-left,
+.header-right {
+  display: flex;
+}
+
+/*
+
+.header-center,
+.back {
+  display: none;
+}
+
+.hamberger,
+.youtube-logo,
+.microphone,
+.dots,
+.mag-glass,
+.mic,
+.sign-in{
+  display: flex;
+}
+
+*/
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}

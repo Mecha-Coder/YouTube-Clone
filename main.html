@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>YouTube Clone</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Data/Icon/Favicon/youtube-6.ico"
+    />
+
+    <!--Import all CSS files-->
+    <link rel="stylesheet" href="Style/general.css" />
+    <link rel="stylesheet" href="Style/header-general.css" />
+    <link rel="stylesheet" href="Style/header-left.css" />
+    <link rel="stylesheet" href="Style/header-center.css" />
+    <link rel="stylesheet" href="Style/header-right.css" />
+    <link rel="stylesheet" href="Style/sidebar.css" />
+    <link rel="stylesheet" href="Style/sub-header.css" />
+    <link rel="stylesheet" href="Style/responsive.css" />
+
+    <!--Custom font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <div id="hamberger" class="hamberger show">
+          <img src="Data/Icon/Dark-theme/Header/hamberger.png" />
+        </div>
+
+        <div id="youtube-logo" class="youtube-logo show">
+          <img src="Data/Icon/Dark-theme/Header/YouTube-Logo.png" />
+        </div>
+
+        <div id="back" class="back hide">
+          <img src="Data/Icon/Dark-theme/Sub-Menu/undo.png" />
+          <div class="tooltip">Back</div>
+        </div>
+      </div>
+
+      <div id="header-center" class="header-center hide">
+        <div id="searchbar" class="searchbar">
+          <div class="search-icon">
+            <img src="Data/Icon/Dark-theme/Header/search.png" />
+          </div>
+
+          <input id="input" class="input" placeholder="Search" type="text" />
+
+          <div id="del" class="delete-icon">
+            <img src="Data/Icon/Dark-theme/Header/cancel(1).png" />
+          </div>
+        </div>
+
+        <div class="search">
+          <img src="Data/Icon/Dark-theme/Header/search.png" />
+          <div class="tooltip">Search</div>
+        </div>
+
+        <div id="microphone" class="microphone show">
+          <img src="Data/Icon/Dark-theme/Header/microphone.png" />
+          <div class="tooltip">Search with your voice</div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div id="mag-glass" class="mag-glass show">
+          <img src="Data/Icon/Dark-theme/Header/search.png" />
+          <div class="tooltip">Search</div>
+        </div>
+
+        <div id="mic" class="mic show">
+          <img src="Data/Icon/Dark-theme/Header/microphone.png" />
+          <div class="tooltip">Search with your voice</div>
+        </div>
+
+        <div id="dots" class="dots show">
+          <img src="Data/Icon/Dark-theme/Header/dots.png" />
+          <div class="tooltip">Settings</div>
+        </div>
+
+        <div id="sign-in" class="sign-in show">
+          <img src="Data/Icon/Dark-theme/Header/user(4).png" />
+          Sign in
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="side-nav">
+        <img src="Data/Icon/Dark-theme/Sidebar/home.png" />
+        <snap>Home</snap>
+      </div>
+
+      <div class="side-nav">
+        <img src="Data/Icon/Dark-theme/Sidebar/play.png" />
+        <snap>You</snap>
+      </div>
+
+      <div class="side-nav">
+        <img src="Data/Icon/Dark-theme/Sidebar/history.png" />
+        <snap>History</snap>
+      </div>
+    </nav>
+
+    <section>sub-header</section>
+    <main></main>
+
+    <script src="Script/clicks.js"></script>
+  </body>
+</html>

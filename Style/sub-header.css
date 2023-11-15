@@ -1,8 +1,24 @@
 section {
+  background-color: var(--dark-bg);
+  display: flex;
   position: fixed;
-  background-color: lightpink;
+  flex-direction: row;
+  padding: 0px 16px;
+
   top: 56px;
   left: 72px;
   right: 0px;
   height: 56px;
+}
+
+section div {
+  background-color: var(--button-idle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  margin: 12px 12px 12px 0px;
+  padding: 0px 12px;
+  border-radius: 10px;
 }

@@ -14,7 +14,7 @@ section {
   overflow-x: hidden;
   scroll-behavior: smooth;
 
-  margin: 0px 40px;
+  margin: 0px 16px;
 }
 
 .sub-header div {
@@ -51,14 +51,24 @@ section div img {
 }
 
 .previous {
-  left: 4px;
-  background-image: linear-gradient(to right, black, black, transparent);
+  left: 0px;
+  background-image: linear-gradient(
+    to right,
+    var(--dark-bg),
+    var(--dark-bg),
+    transparent
+  );
   justify-content: left;
 }
 
 .next {
   right: 4px;
-  background-image: linear-gradient(to left, black, black, transparent);
+  background-image: linear-gradient(
+    to left,
+    var(--dark-bg),
+    var(--dark-bg),
+    transparent
+  );
   justify-content: right;
 }
 

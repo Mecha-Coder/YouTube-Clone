@@ -31,10 +31,18 @@
   section {
     left: 0px;
   }
+
+  main {
+    left: 0px;
+  }
 }
 
 @media (min-width: 1300px) {
   section {
+    left: 220px;
+  }
+
+  main {
     left: 220px;
   }
 

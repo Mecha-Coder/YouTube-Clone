@@ -5,6 +5,10 @@
   margin: 0px;
 }
 
+body {
+  position: relative;
+}
+
 :root {
   /*****************| Standard dark theme color |*************/
   --button-click: rgba(200, 200, 200, 0.4);

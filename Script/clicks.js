@@ -102,14 +102,16 @@ function SearchFocus(state) {
 let mouseDown = false;
 let startX, scrollLeft;
 const slider = document.getElementById("sub-header");
+const previousContainer = document.getElementById("previous-container");
+const nextContainer = document.getElementById("next-container");
+
+const previousButton = document.getElementById("previous-button");
+const nextButton = document.getElementById("next-button");
 
 const startDragging = (e) => {
   mouseDown = true;
   startX = e.pageX;
   scrollLeft = slider.scrollLeft;
-  console.log(slider.scrollWidth);
-  console.log(slider.clientWidth);
-  console.log(scrollLeft);
 };
 
 const stopDragging = (e) => {
@@ -121,6 +123,24 @@ const move = (e) => {
     const scroll = e.pageX - startX;
     slider.scrollLeft = scrollLeft - scroll;
   }
+
+  const i = slider.scrollWidth - slider.clientWidth;
+
+  if (slider.scrollLeft === i) {
+    nextContainer.classList.remove("show");
+    nextContainer.classList.add("hide");
+  } else {
+    nextContainer.classList.remove("hide");
+    nextContainer.classList.add("show");
+  }
+
+  if (slider.scrollLeft === 0) {
+    previousContainer.classList.remove("show");
+    previousContainer.classList.add("hide");
+  } else {
+    previousContainer.classList.remove("hide");
+    previousContainer.classList.add("show");
+  }
 };
 
 // Add the event listeners
@@ -128,3 +148,35 @@ slider.addEventListener("mousemove", move, false);
 slider.addEventListener("mousedown", startDragging, false);
 slider.addEventListener("mouseup", stopDragging, false);
 slider.addEventListener("mouseleave", stopDragging, false);
+
+previousButton.addEventListener("click", () => {
+  if (slider.scrollLeft < 300) {
+    slider.scrollLeft = 0;
+    previousContainer.classList.remove("show");
+    previousContainer.classList.add("hide");
+  } else {
+    slider.scrollLeft += -300;
+  }
+
+  if (slider.scrollLeft !== 0) {
+    nextContainer.classList.add("show");
+    nextContainer.classList.remove("hide");
+  }
+});
+
+nextButton.addEventListener("click", () => {
+  const i = slider.scrollWidth - slider.clientWidth;
+
+  if (slider.scrollLeft > i - 300) {
+    slider.scrollLeft = i;
+    nextContainer.classList.remove("show");
+    nextContainer.classList.add("hide");
+  } else {
+    slider.scrollLeft += +300;
+  }
+
+  if (slider.scrollLeft === 0) {
+    previousContainer.classList.add("show");
+    previousContainer.classList.remove("hide");
+  }
+});

@@ -1,3 +1,5 @@
+/*************************| Get data from video-database  |******************************/
+
 fetch("../Data/Content/video-database.json")
   .then((results) => results.json())
   .then((videoData) => {
@@ -20,7 +22,7 @@ fetch("../Data/Content/video-database.json")
         </div>
       
         <div class="video-detail">
-          <img src="" />
+          <img class="channel-icon" data-channel="${video.channelId}"/>
       
           <div class="text-detail">
             <a class="video-title" href="https://www.youtube.com/watch?v=${
@@ -28,12 +30,11 @@ fetch("../Data/Content/video-database.json")
             }">
               ${video.title}
             </a>
-            <a
-              href=""
-              class="channel-name"
-            >
+
+            <a class="channel-name" data-channel="${video.channelId}">
               ${"Blank"}
             </a>
+
             <div class="statistic">${video.views} views &middot; ${
         video.upload
       } ago</div>
@@ -62,4 +63,39 @@ fetch("../Data/Content/video-database.json")
       button.classList.remove("hide");
       button.classList.add("show");
     }
+  });
+
+/*************************| Get data from channel-database  |******************************/
+
+fetch("../Data/Content/channel-database.json")
+  .then((results) => results.json())
+  .then((channelData) => {
+    const allChannelIcon = document.querySelectorAll(".channel-icon");
+    const allChannelName = document.querySelectorAll("channel-name");
+
+    let i;
+
+    allChannelIcon.forEach((icon) => {
+      i = channelData.findIndex((object) => {
+        return object.channelId === icon.dataset.channel;
+      });
+
+      icon.setAttribute(
+        "src",
+        `Data/Content/channel/${channelData[i].icon}.jpg`
+      );
+    });
+
+    allChannelName.forEach((name) => {
+      i = channelData.findIndex((object) => {
+        return object.channelId === name.dataset.channel;
+      });
+
+      name.setAttribute(
+        "href",
+        `https://www.youtube.com/@${name.dataset.channel}`
+      );
+
+      name.innerHTML = channelData[i].name;
+    });
   });

@@ -42,7 +42,7 @@
   },
 
   {
-    "channelId": "ophitsmusic311",
+    "channelId": "tophitsmusic311",
     "name": "Top Hits Music",
     "icon": "channel-8"
   },
@@ -495,5 +495,11 @@
     "channelId": "WananimationOfficial",
     "name": "Wan Animation",
     "icon": "channel-83"
+  },
+
+  {
+    "channelId": "Tranquil_Music888",
+    "name": "Tranquil Music",
+    "icon": "channel-84"
   }
 ]

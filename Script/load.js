@@ -71,7 +71,7 @@ fetch("../Data/Content/channel-database.json")
   .then((results) => results.json())
   .then((channelData) => {
     const allChannelIcon = document.querySelectorAll(".channel-icon");
-    const allChannelName = document.querySelectorAll("channel-name");
+    const allChannelName = document.querySelectorAll(".channel-name");
 
     let i;
 

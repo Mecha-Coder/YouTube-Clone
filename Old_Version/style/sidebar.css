@@ -1,0 +1,48 @@
+nav{
+  /*background-color: lightblue;*/
+  position: fixed;
+  top: 55px;
+  left: 0px;
+  bottom: 0px;
+  width: 72px;
+  background-color: white;
+  z-index:2;
+}
+
+nav img{
+  height: 25px;
+}
+
+.nav-container{
+  display:flex;
+  flex-direction: column;
+  font-size: 10px;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  height: 76px;
+  cursor: pointer;
+}
+
+.nav-container:hover{
+  background-color: rgb(197, 197, 197);
+}
+
+@media (min-width:1500px){
+  nav{
+    width: 180px;
+  }
+
+  .nav-container{
+    flex-direction: row;
+    height: 50px;
+    justify-content:left;
+    font-size: 12px;
+  }
+
+  nav img{
+  margin: 0px 15px 0px 20px;
+  height: 25px;
+  }
+
+}
